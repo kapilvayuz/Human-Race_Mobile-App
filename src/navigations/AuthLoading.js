@@ -17,7 +17,7 @@ export default class AuthLoadingScreen extends React.Component {
         SplashScreen.hide()
         if(userToken){
             if(otp==1){
-                this.props.navigation.navigate('Feed')
+                this.props.navigation.navigate('ChalSub')
             }else{
                 this.props.navigation.navigate('Auth')
             }

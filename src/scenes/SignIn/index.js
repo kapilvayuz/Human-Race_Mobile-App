@@ -74,7 +74,7 @@ const [PassError,setPassError] = useState('')
                   }
                 else{
                     await AsyncStorage.setItem('otp','1');
-                    navigation.navigate('Feed')
+                    navigation.navigate('ChalSub')
                     //snavigation.navigate('Profile')
                   }              
           }
