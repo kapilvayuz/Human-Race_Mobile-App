@@ -576,7 +576,7 @@ const inputData =async()=>{
  
   settoken(userToken)
  
-  let url='https://humanrace-vayuz.herokuapp.com/challenge'
+  //let url='https://humanrace-vayuz.herokuapp.com/challenge'
 if(side==='new'){
   url='https://humanrace-vayuz.herokuapp.com/challenge/all'
 }
@@ -593,7 +593,6 @@ if(side==='new'){
       setchal(false)      
     }
     else{
-      
       setchal(true)
       setuserId(response.data.user._id)
       setuserdata(response.data.user)
